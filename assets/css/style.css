@@ -25,6 +25,9 @@
     font-family: Rubik;
     text-decoration: none;
 }
+body {
+    background: linear-gradient(#efefef, #efefef 20%);
+}
 button {
     cursor: pointer;
 }
@@ -79,8 +82,8 @@ header nav {
     margin: 50px auto;
 }
 .hero-img {
-    width: 650px;
-    height: 501px;
+    width: 600px;
+    height: 550px;
 }
 .hero-info {
     width: 55%;
@@ -115,4 +118,74 @@ header nav {
     font-size: 18px;
     border-bottom: 1px solid black;
     color: black;
+}
+.category-btns {
+    display: flex;
+    gap: 20px;
+}
+.category-btns button {
+    width: 20%;
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+.category-btns button:hover {
+    color: white;
+    background: #FF7A50;
+    box-shadow: 0px 4px 12px 0px #0000001F;
+    transition: all .4s ease-in-out;
+}
+.category {
+    margin: 50px 0;
+}
+.category-item {
+    border-radius: 15px;
+    width: 19%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.category-item__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin: 20px 0;
+}
+.category-item__img   {
+    width: 144px;
+    height: 144px;
+}
+.category-title {
+    text-align: center;
+}
+.category-title span {
+    color: #FF7A50;
+}
+.category-item__stars {
+    width: 120px;
+}
+.category-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.category-item__btn {
+    width: 120px;
+    background: #FF7A50;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.category-item__title {
+    font-weight: normal;
 }
