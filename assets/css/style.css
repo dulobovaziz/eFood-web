@@ -447,3 +447,51 @@ header nav {
     border-radius: 50px;
     padding: 0 30px;
 }
+footer {
+    margin-top: 30px;
+    padding: 30px 0;
+    background: #fff;
+}
+.footer-bio {
+    display: flex;
+    gap: 10px;
+    font-size: 17px;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 30px 0;
+}
+.icon-grp i {
+    font-size: 20px;
+    background-color: #eee;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-item p {
+    font-size: 17px;
+}
+.copy {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copy p {
+    font-size: 17px;
+    color: #646464;
+}
+.copy ul {
+    display: flex;
+    gap: 20px;
+}
+.copy li {
+    list-style: none;
+}
